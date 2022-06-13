@@ -2,10 +2,18 @@
   "name": "tutorial",
   "scripts": {
     "hello": "ts-node-dev --respawn src/hello.ts",
-    "honey": "ts-node-dev --respawn src/honey.ts"
+    "honey": "ts-node-dev --respawn src/honey.ts",
+    "init": "spago init",
+    "build": "spago build",
+    "test": "spago test",
+    "repl": "spago repl",
+    "installPureScriptDeps": "spago install lists foldable-traversable",
+    "run": "spago run"
   },
   "devDependencies": {
     "ts-node-dev": "^2.0.0",
-    "typescript": "^2.0.0"
+    "typescript": "^2.0.0",
+    "purescript": "0.15.2",
+    "spago": "0.20.9"
   }
 }

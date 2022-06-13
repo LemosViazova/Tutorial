@@ -17,3 +17,10 @@ In this chapter we will explore
 - how to use data structures like `[]` (a list)
 ##### how to run:
 `node run honey`
+
+
+## Chapter 3: Purescript? Euler?
+In this chapter we will explore
+- how to use purescript
+##### how to run:
+`node run run`
