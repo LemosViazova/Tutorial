@@ -1,0 +1,9 @@
+{
+  "name": "foo",
+  "scripts": {
+    "start": "tsc hello.ts; node hello.js"
+  },
+  "devDependencies": {
+    "typescript": "^1.8.10"
+  }
+}
