@@ -1,9 +1,11 @@
 {
-  "name": "foo",
+  "name": "tutorial",
   "scripts": {
-    "start": "tsc hello.ts; node hello.js"
+    "hello": "ts-node-dev --respawn src/hello.ts",
+    "honey": "ts-node-dev --respawn src/honey.ts"
   },
   "devDependencies": {
-    "typescript": "^1.8.10"
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^2.0.0"
   }
 }
